@@ -15,7 +15,7 @@ import android.view.SurfaceView;
  */
 
 public class DrawCanvas extends SurfaceView implements SurfaceHolder.Callback {
-    private boolean isDrawing, isRunning;
+    public boolean isDrawing, isRunning;
     private DrawInvoker mDrawInvoker;
     private DrawThread mDrawThread;
     private Bitmap mBitmap;

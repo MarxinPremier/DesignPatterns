@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.wangzuo.designpatterns.commandMode.bean.DrawCanvas
+        android:id="@+id/canvas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/color_layout" />
+
+    <LinearLayout
+        android:id="@+id/color_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/circle_layout"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/red_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:text="红色" />
+
+        <Button
+            android:id="@+id/green_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="绿色" />
+
+        <Button
+            android:id="@+id/blue_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="蓝色" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/circle_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/undo_layout"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/normal_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="正常笔触" />
+
+        <Button
+            android:id="@+id/circle_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="圆形笔触" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/undo_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/undo_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="撤销" />
+
+        <Button
+            android:id="@+id/redo_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="重做" />
+    </LinearLayout>
+</RelativeLayout>
