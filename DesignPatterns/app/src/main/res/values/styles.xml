@@ -8,4 +8,22 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="buttonStyle">
+        <item name="android:layout_width">@dimen/button_width</item>
+        <item name="android:layout_height">@dimen/button_height</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">@dimen/button_margin_top</item>
+        <item name="android:background">@color/button_color</item>
+        <item name="android:textColor">@color/button_text_color</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+        <item name="android:elevation">@dimen/button_margin_elevation</item>
+    </style>
+
+    <style name="umlImgStyle">
+        <item name="android:layout_width">@dimen/uml_img_width</item>
+        <item name="android:layout_height">@dimen/uml_img_height</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">@dimen/button_margin_top</item>
+    </style>
+
 </resources>

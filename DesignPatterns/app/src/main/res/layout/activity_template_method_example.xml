@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/template_method_benz_btn"
+            style="@style/buttonStyle"
+            android:text="benz" />
+
+        <Button
+            android:id="@+id/template_method_bmw_btn"
+            style="@style/buttonStyle"
+            android:layout_below="@+id/template_method_benz_btn"
+            android:text="Bmw" />
+
+    </RelativeLayout>
+</ScrollView>

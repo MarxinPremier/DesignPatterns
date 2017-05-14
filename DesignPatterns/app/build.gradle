@@ -6,7 +6,7 @@ android {
 
     defaultConfig {
         applicationId "com.wangzuo.designpatterns"
-        minSdkVersion 15
+        minSdkVersion 21
         targetSdkVersion 24
         versionCode 1
         versionName "1.0"
@@ -21,9 +21,11 @@ android {
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile files('src/main/libs/fastjson-1.2.2.jar')
     compile 'com.android.support:appcompat-v7:24.0.0'
     compile 'com.jakewharton:butterknife:8.5.1'
-    annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha8'
+    compile 'com.squareup.picasso:picasso:2.3.2'
     testCompile 'junit:junit:4.12'
-    compile files('src/main/libs/fastjson-1.2.2.jar')
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.1'
 }

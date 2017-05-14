@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/factory_uml_btn"
+            style="@style/buttonStyle"
+            android:text="UML" />
+
+        <Button
+            android:id="@+id/factory_simple_btn"
+            style="@style/buttonStyle"
+            android:layout_below="@+id/factory_uml_btn"
+            android:text="简单工厂" />
+
+        <Button
+            android:id="@+id/factory_more_btn"
+            style="@style/buttonStyle"
+            android:layout_below="@+id/factory_simple_btn"
+            android:text="多工厂" />
+
+
+    </RelativeLayout>
+</ScrollView>

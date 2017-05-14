@@ -10,6 +10,7 @@ import com.alibaba.fastjson.JSON;
 import com.wangzuo.designpatterns.R;
 import com.wangzuo.designpatterns.main.adapter.PatternAdapter;
 import com.wangzuo.designpatterns.main.bean.PatternBean;
+import com.wangzuo.designpatterns.main.utils.ActivityGuider;
 import com.wangzuo.designpatterns.main.utils.JsonUtils;
 import com.wangzuo.designpatterns.main.utils.ResourceUtils;
 import com.wangzuo.designpatterns.main.utils.ToastUtils;
@@ -49,15 +50,13 @@ public class MainActivity extends BaseActivity implements AdapterView.OnItemClic
         patternAdapter.notifyDataSetChanged();
     }
 
-
     @Override
     protected int getLayout() {
         return R.layout.activity_main;
     }
 
-
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-        ToastUtils.show(this,position+"");
+        ActivityGuider.turn(this,data.get(position).getClass_name());
     }
 }

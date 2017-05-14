@@ -56,7 +56,7 @@ public class PatternAdapter extends BaseAdapter {
         }else {
             viewHolder= (ViewHolder) convertView.getTag();
         }
-        viewHolder.name.setText(((PatternBean)data.get(position)).getName());
+        viewHolder.name.setText((position+1)+"."+((PatternBean)data.get(position)).getName());
         return convertView;
 
     }

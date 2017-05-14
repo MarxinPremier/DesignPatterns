@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/factory_more_uml_img"
+            style="@style/umlImgStyle"
+            android:layout_centerInParent="false"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:id="@+id/factory_white_people"
+            style="@style/buttonStyle"
+            android:layout_below="@+id/factory_more_uml_img"
+            android:text="创建白色人种" />
+
+        <Button
+            android:id="@+id/factory_black_people"
+            style="@style/buttonStyle"
+            android:layout_below="@+id/factory_white_people"
+            android:text="创建黑色人种" />
+
+        <Button
+            android:id="@+id/factory_yellow_people"
+            style="@style/buttonStyle"
+            android:layout_below="@+id/factory_black_people"
+            android:text="创建黄色人种" />
+
+
+    </RelativeLayout>
+</ScrollView>

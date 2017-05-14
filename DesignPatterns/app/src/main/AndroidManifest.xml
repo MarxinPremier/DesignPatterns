@@ -2,7 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.wangzuo.designpatterns">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
+        android:name=".main.activity.PatternApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -15,7 +18,24 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".main.activity.BaseActivity"></activity>
+        <activity android:name=".main.activity.BaseActivity" />
+        <activity android:name=".main.activity.BaseUMLActivity" />
+        <activity android:name=".single.activity.SingletonActivity" />
+        <activity android:name=".single.activity.SingletonUMLActivity" />
+        <activity android:name=".single.activity.SingletonExampleActivity" />
+        <activity android:name=".factory.activity.FactoryActivity" />
+        <activity android:name=".factory.activity.FactoryUMLActivity" />
+        <activity android:name=".factory.activity.FactorySimpleActivity" />
+        <activity android:name=".factory.activity.FactoryMoreActivity" />
+        <activity android:name=".absFactory.activity.AbsFactoryActivity" />
+        <activity android:name=".absFactory.activity.AbsFactoryUMLActivity" />
+        <activity android:name=".absFactory.activity.AbsFactoryExampleActivity" />
+        <activity android:name=".templeteMethod.activity.TemplateMethodActivity" />
+        <activity android:name=".templeteMethod.activity.TemplateMethodUMLActivity" />
+        <activity android:name=".templeteMethod.activity.TemplateMethodExampleActivity" />
+        <activity android:name=".builder.activity.BuilderActivity" />
+        <activity android:name=".builder.activity.BuilderUMLActivity" />
+        <activity android:name=".builder.activity.BuilderExampleActivity"></activity>
     </application>
 
 </manifest>

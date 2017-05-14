@@ -1,13 +1,78 @@
 {
     data:[
         {
-            name:'单例模式'
+            name:'单例模式',
+            class_name:'com.wangzuo.designpatterns.single.activity.SingletonActivity'
         },
         {
-            name:'单例模式'
+            name:'工厂模式',
+            class_name:'com.wangzuo.designpatterns.factory.activity.FactoryActivity'
         },
         {
-            name:'单例模式'
-        }
+            name:'抽象工厂模式',
+            class_name:'com.wangzuo.designpatterns.absFactory.activity.AbsFactoryActivity'
+        },
+        {
+            name:'模板方法模式',
+            class_name:'com.wangzuo.designpatterns.templeteMethod.activity.TemplateMethodActivity'
+        },
+        {
+            name:'建造者模式',
+            class_name:'com.wangzuo.designpatterns.builder.activity.BuilderActivity'
+        },
+        {
+            name:'代理模式'
+        },
+        {
+            name:'原型模式'
+        },
+        {
+            name:'中介者模式'
+        },
+        {
+            name:'命令模式'
+        },
+        {
+            name:'责任链模式'
+        },
+        {
+            name:'装饰模式'
+        },
+        {
+            name:'策略模式'
+        },
+        {
+            name:'适配器模式'
+        },
+        {
+            name:'迭代器模式'
+        },
+        {
+            name:'组合模式'
+        },
+        {
+            name:'观察者模式'
+        },
+        {
+            name:'门面模式'
+        },
+        {
+            name:'备忘录模式'
+        },
+        {
+            name:'访问者模式'
+        },
+        {
+            name:'状态模式'
+        },
+        {
+            name:'解释器模式'
+        },
+        {
+            name:'享元模式'
+        },
+        {
+            name:'桥梁模式'
+        },
     ]
 }
