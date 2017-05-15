@@ -35,7 +35,10 @@
         <activity android:name=".templeteMethod.activity.TemplateMethodExampleActivity" />
         <activity android:name=".builder.activity.BuilderActivity" />
         <activity android:name=".builder.activity.BuilderUMLActivity" />
-        <activity android:name=".builder.activity.BuilderExampleActivity"></activity>
+        <activity android:name=".builder.activity.BuilderExampleActivity" />
+        <activity android:name=".proxy.activity.ProxyActivity" />
+        <activity android:name=".proxy.activity.ProxyUMLActivity" />
+        <activity android:name=".proxy.activity.NormalProxyActivity"></activity>
     </application>
 
 </manifest>

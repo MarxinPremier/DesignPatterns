@@ -17,5 +17,6 @@ public class URLConstants {
     public static final String TEMPLATE_METHOD_UML_IMG = "http://opwuiwea8.bkt.clouddn.com/templateMethodUML.png";
     public static final String BUILDER_UML_IMG = "http://opwuiwea8.bkt.clouddn.com/builderUML.png";
     public static final String BUILDER_EXAMPLE_UML_IMG = "http://opwuiwea8.bkt.clouddn.com/builderExampleUML.png";
+    public static final String PROXY_UML_IMG = "http://opwuiwea8.bkt.clouddn.com/proxyUML.png";
 
 }
