@@ -15,16 +15,28 @@
             android:layout_marginTop="10dp" />
 
         <Button
-            android:id="@+id/builder_example_uml_btn"
+            android:id="@+id/builder_example_benza_btn"
             style="@style/buttonStyle"
             android:layout_below="@+id/builder_example_uml_img"
-            android:text="UML" />
+            android:text="奔驰a" />
 
         <Button
-            android:id="@+id/builder_example_example_btn"
+            android:id="@+id/builder_example_benb_btn"
             style="@style/buttonStyle"
-            android:layout_below="@+id/builder_example_uml_btn"
-            android:text="示例" />
+            android:layout_below="@+id/builder_example_benza_btn"
+            android:text="奔驰b" />
+
+        <Button
+            android:id="@+id/builder_example_bmwa_btn"
+            style="@style/buttonStyle"
+            android:layout_below="@+id/builder_example_benb_btn"
+            android:text="宝马a" />
+
+        <Button
+            android:id="@+id/builder_example_bmwb_btn"
+            style="@style/buttonStyle"
+            android:layout_below="@+id/builder_example_bmwa_btn"
+            android:text="宝马b" />
 
     </RelativeLayout>
 </ScrollView>

@@ -14,7 +14,7 @@
         <Button
             android:id="@+id/builder_example_btn"
             style="@style/buttonStyle"
-            android:layout_below="@+id/abs_factory_uml_btn"
+            android:layout_below="@+id/builder_uml_btn"
             android:text="示例" />
 
     </RelativeLayout>
